@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* header */
+
+header {
+    height: 100px;
+    width: 1200px;
+    position: relative;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-left: 100px;
+    width: 50%;
+    color: gray;
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    right: 75px;
+}
+
+ul {
+    margin-left: 0;
+}
+
+header li, .mainNav li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.liBorder {
+    padding: 40px 5px;
+    background: #eee;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+/* end header */
+
+/* hero */
+.hero img {
+    height: 400px;
+    width: 1200px;
+}
+/* end hero */
+
+/* main nav */
+.mainNav {
+    height: 50px;
+    width: 1200px;
+    padding: 15px;
+    background: #eee;
+    border-bottom: 2px solid gray;
+}
+
+.mainNav li {
+    height: 50px;
+    width: 25px;
+    margin: 25px 40px;
+    padding-right: 10px;
+    border-right: 2px solid gray;
+}
+
+.whiteLink {
+    padding: 15px 0 15px 200px;
+    background: white;
+}
+
+/* .noBorder {
+    border
+} */
+/* end main Nav */
+
+/* ad */
+.ad {
+    height: 250px;
+    width: 1200px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #ddd;
+}
+
+.adSection {
+    height: 200px;
+    width: 200px;
+}
+
+.borders {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.adText {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.adSection h3 {
+    font-size: 32px;
+}
+
+.button {
+    margin-left: 130px;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+ /* end ad */
+
+.quote {
+    margin: 25px;
+    text-align: center;
+    font-size: 26px;
+}
+
+/* news */
+.news {
+    height: 300px;
+    width: 1200px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.newsSection {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px; 
+}
+
+.newsSection h4 {
+    margin-top: 10px;
+    margin-right: 10px;
+    line-height: 25px;;
+    text-transform: uppercase;
+}
+.newsSection img {
+    height: 150px;
+    width: 230px;
+}
+
+.newsLi {
+    width: 200px;
+    line-height: 40px;
+    margin-left: 50px;
+}
+
+.newsButton{
+    margin-top: 50px;
+    margin-left: 600px;
+}
+/* end news */
